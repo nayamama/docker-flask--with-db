@@ -15,3 +15,6 @@ With declared volume name as key volumes, we can attach the volume to correspond
 service.
 
 Database should be attached with external volume due to ownership issue.
+
+Work through the fs in docker container:
+docker exec -it <container ID> bash
