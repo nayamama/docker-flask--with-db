@@ -1,0 +1,17 @@
+1. docker-compose up
+2. check the corresponding docker interpreter
+3. check if the db table exist
+	if no:
+		synchronize the db
+		open db console
+		run schema.sql
+4. synchronize db
+5. localhost:5000
+
+When we try to run the app in mint pycharm, don't forget to install db driver.
+
+When defining the volumes in docker-compose.yml, create volume instance first. 
+With declared volume name as key volumes, we can attach the volume to corresponding
+service.
+
+Database should be attached with external volume due to ownership issue.
